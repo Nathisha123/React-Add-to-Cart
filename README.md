@@ -1,8 +1,12 @@
-# React + Vite
+Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that demonstrates adding and removing items from a cart. The application uses state management to update the cart count and provides interactive buttons to add items to the cart and remove items from it.
+Features
 
-Currently, two official plugins are available:
+  Add to Cart: Increases the number of items in the cart.
+  Remove from Cart: Decreases the number of items in the cart, with a condition to prevent negative counts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Technologies Used
+
+  React: JavaScript library for building user interfaces.
+  useState: React hook for managing state in functional components.
